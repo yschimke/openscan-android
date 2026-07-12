@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>yschimke/renovate-config"],
+  "packageRules": [
+    {
+      "groupName": "Ktor",
+      "matchPackageNames": ["/^io\\.ktor($|[.:])/"]
+    }
+  ]
+}

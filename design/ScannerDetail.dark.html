@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=411, initial-scale=1" />
+    <title>Scanner detail — dark</title>
+    <style>
+      :root {
+        --surface: #121316;
+        --on-surface: #e4e1e9;
+        --on-surface-variant: #c7c5d0;
+        --primary: #b9c3ff;
+        --on-primary: #0b2284;
+        --container: #1f1f23;
+        --container-highest: #353438;
+        --secondary-container: #424659;
+        --on-secondary-container: #dfe1f9;
+        --outline: #90909a;
+      }
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      html, body { width: 411px; background: var(--surface); color: var(--on-surface);
+        font-family: "Roboto", "Segoe UI", system-ui, sans-serif; }
+      .appbar { height: 64px; display: flex; align-items: center; gap: 16px; padding: 0 16px;
+        font-size: 22px; font-weight: 500; }
+      .content { padding: 16px; display: flex; flex-direction: column; gap: 12px; }
+      .head { font-size: 24px; font-weight: 600; }
+      .sub { font-size: 12px; color: var(--on-surface-variant); display: flex; gap: 12px;
+        align-items: center; margin-top: 2px; }
+      .pill { display: flex; align-items: center; gap: 4px; }
+      .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--primary); }
+      .card { border-radius: 12px; padding: 16px; background: var(--container);
+        display: flex; flex-direction: column; gap: 12px; }
+      .section { color: var(--primary); font-size: 14px; font-weight: 600; }
+      .preview { width: 100%; aspect-ratio: 4/3; background: var(--container-highest);
+        border-radius: 12px; display: flex; align-items: center; justify-content: center;
+        color: var(--on-surface-variant); font-size: 14px; }
+      .row { display: flex; align-items: center; gap: 8px; }
+      .tonal { background: var(--secondary-container); color: var(--on-secondary-container);
+        border-radius: 20px; padding: 8px 16px; font-size: 14px; }
+      .stepper { display: flex; justify-content: space-between; align-items: center; }
+      .stepval { font-size: 16px; font-weight: 600; min-width: 32px; text-align: center; }
+      .progress { width: 100%; height: 4px; border-radius: 2px; background: var(--secondary-container); position: relative; }
+      .progress::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 45%;
+        background: var(--primary); border-radius: 2px; }
+      .filled { background: var(--primary); color: var(--on-primary); border-radius: 20px;
+        padding: 12px; text-align: center; font-weight: 500; }
+      .btn { border: 1px solid var(--outline); border-radius: 20px; padding: 10px;
+        text-align: center; color: var(--primary); font-weight: 500; }
+    </style>
+  </head>
+  <body>
+    <div class="appbar"><span>&#8592;</span>Workshop OpenScan</div>
+    <div class="content">
+      <div>
+        <div class="head">Workshop OpenScan</div>
+        <div class="sub"><span class="pill"><span class="dot"></span>Online</span><span>openscan.local · fw 3.1.0</span></div>
+      </div>
+      <div class="card">
+        <div class="section">Camera</div>
+        <div class="preview">No preview</div>
+        <div class="row"><span style="font-size:14px;font-weight:500">Turntable</span>
+          <span class="tonal">&#8722;15&deg;</span><span class="tonal">+15&deg;</span></div>
+      </div>
+      <div class="card">
+        <div class="section">Scan</div>
+        <div style="font-size:14px">Capturing 18 / 40</div>
+        <div class="progress"></div>
+        <div class="filled">Stop scan</div>
+      </div>
+      <div class="btn">Open full web interface</div>
+    </div>
+  </body>
+</html>

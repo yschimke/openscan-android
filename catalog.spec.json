@@ -1,0 +1,74 @@
+{
+  "$comment": "Design-catalog spec for the OpenScan mobile design system. Code-led: it declares which @Preview composables (by function name) make up the published sticker sheet. Consumed by @design-parity/catalog-export over a `compose-preview bundle pack --module :app` render to produce the importable design-artifacts/openscan-android bundle the public preview server serves at /openscan-android/. Each `preview` MUST equal the exact @Preview function name in :app (ee.schimke.openscan.app.ui.ComponentPreviews / ThemeFoundationPreviews).",
+  "system": "openscan-android",
+  "title": "OpenScan Mobile",
+  "library": [
+    "androidx.compose.material3:material3",
+    "ee.schimke.openscan:openscan-components (OpenScanTheme)"
+  ],
+  "module": "app",
+  "modes": ["light", "dark"],
+  "breakpoints": [{ "size": "compact", "widthDp": 412 }],
+  "groups": [
+    {
+      "name": "Foundation",
+      "components": [
+        {
+          "componentId": "Theme/OpenScan-Light",
+          "preview": "ThemeFoundationOpenScanLightPreview",
+          "caption": "OpenScan theme — colour roles (light)."
+        },
+        {
+          "componentId": "Theme/OpenScan-Dark",
+          "preview": "ThemeFoundationOpenScanDarkPreview",
+          "caption": "OpenScan theme (dark)."
+        }
+      ]
+    },
+    {
+      "name": "Scanners",
+      "components": [
+        {
+          "componentId": "SavedScannerCard/Online",
+          "preview": "SavedScannerCardPreview",
+          "caption": "A saved scanner card with reachability."
+        },
+        {
+          "componentId": "DiscoveredScannerCard/Found",
+          "preview": "DiscoveredScannerCardPreview",
+          "caption": "A device found on the network, ready to add."
+        }
+      ]
+    },
+    {
+      "name": "Screens · Scanner list",
+      "components": [
+        {
+          "componentId": "ScannerList/Populated",
+          "preview": "ScannerListPopulatedPreview",
+          "caption": "Home screen — saved scanners + network discoveries."
+        },
+        {
+          "componentId": "ScannerList/Empty",
+          "preview": "ScannerListEmptyPreview",
+          "caption": "Home screen — nothing found or saved yet."
+        }
+      ]
+    },
+    {
+      "name": "Screens · Scanner detail",
+      "components": [
+        {
+          "componentId": "ScannerDetail/Idle",
+          "preview": "ScannerDetailIdlePreview",
+          "caption": "Scanner detail — idle, ready to configure and start a scan."
+        },
+        {
+          "componentId": "ScannerDetail/Scanning",
+          "preview": "ScannerDetailScanningPreview",
+          "caption": "Scanner detail — a scan in progress with live capture count."
+        }
+      ]
+    }
+  ]
+}

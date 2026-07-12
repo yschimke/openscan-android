@@ -1,0 +1,60 @@
+name: Compose Preview
+
+# Renders the Compose @Preview functions and posts them as a PR comment (or
+# pushes the baseline on main). compose + resources previews run in one job,
+# a11y in a second on a separate runner so wall time is the slower of the two,
+# not their sum.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    types: [opened, synchronize]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: compose-preview-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  apply:
+    name: Render previews (baseline or PR comment, auto-selected)
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7.0.0
+      - uses: ./.github/actions/setup
+        with:
+          cache-read-only: ${{ github.event_name == 'pull_request' && 'true' || 'false' }}
+      - uses: yschimke/compose-ai-tools/.github/actions/apply@v0.16.39
+        with:
+          # Pin the render CLI to the applied Gradle plugin version (single source
+          # of truth: composePreviewPlugin in libs.versions.toml) so CLI + plugin
+          # stay lockstep.
+          cli-version: catalog
+          catalog-key: composePreviewPlugin
+          # The renderer can't rasterise the adaptive launcher icon to PNG, so that
+          # resource capture produces no output; downgrade missing renders to a
+          # warning so the check isn't red on a renderer limitation.
+          missing-renders: warn
+          only: compose,resources
+
+  a11y:
+    name: A11y previews
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7.0.0
+      - uses: ./.github/actions/setup
+        with:
+          cache-read-only: ${{ github.event_name == 'pull_request' && 'true' || 'false' }}
+      - uses: yschimke/compose-ai-tools/.github/actions/apply@v0.16.39
+        with:
+          cli-version: catalog
+          catalog-key: composePreviewPlugin
+          missing-renders: warn
+          only: a11y

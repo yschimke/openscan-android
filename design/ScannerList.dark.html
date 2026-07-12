@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=411, initial-scale=1" />
+    <title>Scanner list — dark</title>
+    <style>
+      :root {
+        --surface: #121316;
+        --on-surface: #e4e1e9;
+        --on-surface-variant: #c7c5d0;
+        --primary: #b9c3ff;
+        --container: #1f1f23;
+        --container-low: #1b1b1f;
+        --outline: #90909a;
+      }
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      html, body { width: 411px; background: var(--surface); color: var(--on-surface);
+        font-family: "Roboto", "Segoe UI", system-ui, sans-serif; }
+      .appbar { height: 64px; display: flex; align-items: center; padding: 0 16px;
+        font-size: 22px; font-weight: 500; }
+      .content { padding: 0 16px 16px; display: flex; flex-direction: column; gap: 12px; }
+      .section { color: var(--primary); font-size: 14px; font-weight: 600;
+        margin-top: 8px; margin-bottom: 4px; }
+      .card { border-radius: 12px; padding: 16px; display: flex; justify-content: space-between;
+        align-items: center; }
+      .card.saved { background: var(--container); }
+      .card.disc { background: var(--container-low); }
+      .name { font-size: 16px; font-weight: 600; }
+      .host { font-size: 12px; color: var(--on-surface-variant); margin-top: 2px; }
+      .pill { display: flex; align-items: center; gap: 4px; font-size: 12px;
+        color: var(--on-surface-variant); }
+      .dot { width: 10px; height: 10px; border-radius: 50%; }
+      .dot.online { background: var(--primary); }
+      .dot.offline { background: #ffb4ab; }
+      .add { color: var(--primary); font-size: 14px; font-weight: 500; }
+      .btn { border: 1px solid var(--outline); border-radius: 20px; padding: 10px;
+        text-align: center; color: var(--primary); font-weight: 500; margin-top: 8px; }
+    </style>
+  </head>
+  <body>
+    <div class="appbar">OpenScan</div>
+    <div class="content">
+      <div class="section">Saved scanners</div>
+      <div class="card saved">
+        <div><div class="name">Workshop OpenScan</div><div class="host">openscan.local</div></div>
+        <div class="pill"><span class="dot online"></span>Online</div>
+      </div>
+      <div class="card saved">
+        <div><div class="name">Garage Mini</div><div class="host">192.168.1.42:8000</div></div>
+        <div class="pill"><span class="dot offline"></span>Offline</div>
+      </div>
+      <div class="section">On your network</div>
+      <div class="card disc">
+        <div><div class="name">OpenScan-Classic</div><div class="host">openscan-2.local:80</div></div>
+        <div class="add">Add</div>
+      </div>
+      <div class="card disc">
+        <div><div class="name">OpenScan-Mini</div><div class="host">192.168.1.77:80</div></div>
+        <div class="add">Add</div>
+      </div>
+      <div class="btn">Add a scanner by address</div>
+    </div>
+  </body>
+</html>
