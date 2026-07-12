@@ -1,0 +1,98 @@
+{
+  "app/ee.schimke.openscan.app.ui.ComponentPreviewsKt.DiscoveredScannerCardPreview_DiscoveredScannerCard": {
+    "captureLabel": "",
+    "functionName": "DiscoveredScannerCardPreview",
+    "module": "app",
+    "renderBasename": "DiscoveredScannerCardPreview_DiscoveredScannerCard.png",
+    "sha256": "a199acc3d14bd274e1e1ba88d3ae86a52357a4988c642586181b7b338047d478",
+    "sourceFile": "src/main/kotlin/ee/schimke/openscan/app/ui/ComponentPreviews.kt"
+  },
+  "app/ee.schimke.openscan.app.ui.ComponentPreviewsKt.SavedScannerCardPreview_SavedScannerCard": {
+    "captureLabel": "",
+    "functionName": "SavedScannerCardPreview",
+    "module": "app",
+    "renderBasename": "SavedScannerCardPreview_SavedScannerCard.png",
+    "sha256": "31e9ddaa932d7d2a275a57cf321361977765bbe6b641ba90f04620b0c40ffb4b",
+    "sourceFile": "src/main/kotlin/ee/schimke/openscan/app/ui/ComponentPreviews.kt"
+  },
+  "app/ee.schimke.openscan.app.ui.ComponentPreviewsKt.ScannerDetailIdlePreview_ScannerDetail \u2014 idle": {
+    "captureLabel": "",
+    "functionName": "ScannerDetailIdlePreview",
+    "module": "app",
+    "renderBasename": "ScannerDetailIdlePreview_ScannerDetail_idle.png",
+    "sha256": "60227a3bdbb49683db77b1e0ea452d65af0592e16dad20da988cb4433622328e",
+    "sourceFile": "src/main/kotlin/ee/schimke/openscan/app/ui/ComponentPreviews.kt"
+  },
+  "app/ee.schimke.openscan.app.ui.ComponentPreviewsKt.ScannerDetailScanningPreview_ScannerDetail \u2014 scanning": {
+    "captureLabel": "",
+    "functionName": "ScannerDetailScanningPreview",
+    "module": "app",
+    "renderBasename": "ScannerDetailScanningPreview_ScannerDetail_scanning.png",
+    "sha256": "1d8a73c4fb870f6b37b4c469c1f1bcf9941ef032515c7aa08ee347d4ff6b6eca",
+    "sourceFile": "src/main/kotlin/ee/schimke/openscan/app/ui/ComponentPreviews.kt"
+  },
+  "app/ee.schimke.openscan.app.ui.ComponentPreviewsKt.ScannerListEmptyPreview_ScannerList \u2014 empty": {
+    "captureLabel": "",
+    "functionName": "ScannerListEmptyPreview",
+    "module": "app",
+    "renderBasename": "ScannerListEmptyPreview_ScannerList_empty.png",
+    "sha256": "275bc2fb478ce9cfea6631086e5e92971a2365994c53e7adaec4b282c1ddefb2",
+    "sourceFile": "src/main/kotlin/ee/schimke/openscan/app/ui/ComponentPreviews.kt"
+  },
+  "app/ee.schimke.openscan.app.ui.ComponentPreviewsKt.ScannerListPopulatedPreview_ScannerList \u2014 populated": {
+    "captureLabel": "",
+    "functionName": "ScannerListPopulatedPreview",
+    "module": "app",
+    "renderBasename": "ScannerListPopulatedPreview_ScannerList_populated.png",
+    "sha256": "a476669a67415b49dfe574bd420760c4a6d552212bc65dc45ba0186e2498481f",
+    "sourceFile": "src/main/kotlin/ee/schimke/openscan/app/ui/ComponentPreviews.kt"
+  },
+  "app/ee.schimke.openscan.app.ui.ThemeFoundationPreviewsKt.ThemeFoundationOpenScanDarkPreview_Theme \u2014 dark": {
+    "captureLabel": "",
+    "functionName": "ThemeFoundationOpenScanDarkPreview",
+    "module": "app",
+    "renderBasename": "ThemeFoundationOpenScanDarkPreview_Theme_dark.png",
+    "sha256": "294cf0cf43de88e17fd8e76b7795496e7199b464358cf3b2f70cb709c5028f22",
+    "sourceFile": "src/main/kotlin/ee/schimke/openscan/app/ui/ThemeFoundationPreviews.kt"
+  },
+  "app/ee.schimke.openscan.app.ui.ThemeFoundationPreviewsKt.ThemeFoundationOpenScanLightPreview_Theme \u2014 light": {
+    "captureLabel": "",
+    "functionName": "ThemeFoundationOpenScanLightPreview",
+    "module": "app",
+    "renderBasename": "ThemeFoundationOpenScanLightPreview_Theme_light.png",
+    "sha256": "f2f1693ddedd524d08c70a17a21bb83f37ea996e254e3f05a7c43e52dda35d85",
+    "sourceFile": "src/main/kotlin/ee/schimke/openscan/app/ui/ThemeFoundationPreviews.kt"
+  },
+  "openscan-components/ee.schimke.openscan.components.ui.ScannerDetailBodyPreviewsKt.ScannerDetailBodyDarkPreview_Scanner detail \u2014 dark": {
+    "captureLabel": "",
+    "functionName": "ScannerDetailBodyDarkPreview",
+    "module": "openscan-components",
+    "renderBasename": "ScannerDetailBodyDarkPreview_Scanner_detail_dark.png",
+    "sha256": "d2906dfc371dbbb6ad76ec3ef83743c6420943fad4a239807a8653a127637fa1",
+    "sourceFile": "src/commonMain/kotlin/ee/schimke/openscan/components/ui/ScannerDetailBodyPreviews.kt"
+  },
+  "openscan-components/ee.schimke.openscan.components.ui.ScannerDetailBodyPreviewsKt.ScannerDetailBodyPreview_Scanner detail": {
+    "captureLabel": "",
+    "functionName": "ScannerDetailBodyPreview",
+    "module": "openscan-components",
+    "renderBasename": "ScannerDetailBodyPreview_Scanner_detail.png",
+    "sha256": "c2bfd475d4ba482016840d43644b666185844960868adf9d82c844c452fc0caa",
+    "sourceFile": "src/commonMain/kotlin/ee/schimke/openscan/components/ui/ScannerDetailBodyPreviews.kt"
+  },
+  "openscan-components/ee.schimke.openscan.components.ui.ScannerListBodyPreviewsKt.ScannerListBodyDarkPreview_Scanner list \u2014 dark": {
+    "captureLabel": "",
+    "functionName": "ScannerListBodyDarkPreview",
+    "module": "openscan-components",
+    "renderBasename": "ScannerListBodyDarkPreview_Scanner_list_dark.png",
+    "sha256": "22f882201b88a49148e8170a07caa2ef7ab68a98d652799a3b234c21374c25b7",
+    "sourceFile": "src/commonMain/kotlin/ee/schimke/openscan/components/ui/ScannerListBodyPreviews.kt"
+  },
+  "openscan-components/ee.schimke.openscan.components.ui.ScannerListBodyPreviewsKt.ScannerListBodyPreview_Scanner list": {
+    "captureLabel": "",
+    "functionName": "ScannerListBodyPreview",
+    "module": "openscan-components",
+    "renderBasename": "ScannerListBodyPreview_Scanner_list.png",
+    "sha256": "d8803c391f6f9a0bdc526d3b515c16b65e890ea6fcfa074d10ab47fd2f201e17",
+    "sourceFile": "src/commonMain/kotlin/ee/schimke/openscan/components/ui/ScannerListBodyPreviews.kt"
+  }
+}
