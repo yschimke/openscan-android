@@ -1,0 +1,78 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Assemble (debug)
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7.0.0
+      - uses: ./.github/actions/setup
+        with:
+          cache-read-only: ${{ github.ref != 'refs/heads/main' }}
+
+      - run: ./gradlew :app:assembleDebug --stacktrace
+
+      - name: Upload APKs
+        if: success()
+        uses: actions/upload-artifact@v7.0.1
+        with:
+          name: debug-apks
+          path: |
+            app/build/outputs/apk/debug/*.apk
+          if-no-files-found: ignore
+
+  test:
+    name: Unit tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7.0.0
+      - uses: ./.github/actions/setup
+        with:
+          cache-read-only: ${{ github.ref != 'refs/heads/main' }}
+
+      - run: ./gradlew test --stacktrace
+
+      - if: always()
+        uses: actions/upload-artifact@v7.0.1
+        with:
+          name: test-reports
+          path: |
+            **/build/reports/tests/**
+            **/build/test-results/**
+          if-no-files-found: ignore
+
+  lint:
+    name: Android lint
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7.0.0
+      - uses: ./.github/actions/setup
+        with:
+          cache-read-only: ${{ github.ref != 'refs/heads/main' }}
+
+      - run: ./gradlew lintDebug --stacktrace
+
+      - if: always()
+        uses: actions/upload-artifact@v7.0.1
+        with:
+          name: lint-reports
+          path: |
+            **/build/reports/lint-results-*.html
+            **/build/reports/lint-results-*.xml
+          if-no-files-found: ignore

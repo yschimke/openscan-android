@@ -1,0 +1,33 @@
+{
+  "$schema": "https://github.com/yschimke/design-parity/schema/design-map.schema.json",
+  "components": [
+    {
+      "code": "openscan-components/src/commonMain/kotlin/ee/schimke/openscan/components/ui/ScannerListBodyPreviews.kt#ScannerListBodyPreview",
+      "source": "claude-design",
+      "ref": "design/ScannerList.light.html",
+      "previewId": "ee.schimke.openscan.components.ui.ScannerListBodyPreviewsKt.ScannerListBodyPreview_Scanner list",
+      "tokensFile": "design/openscan.tokens.json"
+    },
+    {
+      "code": "openscan-components/src/commonMain/kotlin/ee/schimke/openscan/components/ui/ScannerListBodyPreviews.kt#ScannerListBodyDarkPreview",
+      "source": "claude-design",
+      "ref": "design/ScannerList.dark.html",
+      "previewId": "ee.schimke.openscan.components.ui.ScannerListBodyPreviewsKt.ScannerListBodyDarkPreview_Scanner list — dark",
+      "tokensFile": "design/openscan.tokens.json"
+    },
+    {
+      "code": "openscan-components/src/commonMain/kotlin/ee/schimke/openscan/components/ui/ScannerDetailBodyPreviews.kt#ScannerDetailBodyPreview",
+      "source": "claude-design",
+      "ref": "design/ScannerDetail.light.html",
+      "previewId": "ee.schimke.openscan.components.ui.ScannerDetailBodyPreviewsKt.ScannerDetailBodyPreview_Scanner detail",
+      "tokensFile": "design/openscan.tokens.json"
+    },
+    {
+      "code": "openscan-components/src/commonMain/kotlin/ee/schimke/openscan/components/ui/ScannerDetailBodyPreviews.kt#ScannerDetailBodyDarkPreview",
+      "source": "claude-design",
+      "ref": "design/ScannerDetail.dark.html",
+      "previewId": "ee.schimke.openscan.components.ui.ScannerDetailBodyPreviewsKt.ScannerDetailBodyDarkPreview_Scanner detail — dark",
+      "tokensFile": "design/openscan.tokens.json"
+    }
+  ]
+}

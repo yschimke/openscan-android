@@ -1,0 +1,17 @@
+name: ktfmt
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  ktfmt-check:
+    name: ktfmtCheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.0
+      - uses: ./.github/actions/setup
+
+      - name: Run ktfmtCheck
+        run: ./gradlew ktfmtCheck --stacktrace

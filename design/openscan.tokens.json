@@ -1,0 +1,47 @@
+{
+  "$schema": "https://github.com/yschimke/design-parity/schema/dtcg-tokens.schema.json",
+  "$description": "OpenScan design-system tokens (Material 3, seed indigo #4355B9). Single source of truth shared with openscan-components/.../theme/OpenScanTokens.kt; consumed by design-parity as each claude-design component's spec tokens via design-map.json `tokensFile`. Colours are the light scheme (the canonical design-system values).",
+  "color": {
+    "$type": "color",
+    "primary": { "$value": "#4355B9" },
+    "on-primary": { "$value": "#FFFFFF" },
+    "primary-container": { "$value": "#DDE1FF" },
+    "on-primary-container": { "$value": "#00105C" },
+    "secondary": { "$value": "#5A5D72" },
+    "on-secondary": { "$value": "#FFFFFF" },
+    "secondary-container": { "$value": "#DFE1F9" },
+    "on-secondary-container": { "$value": "#171A2C" },
+    "tertiary": { "$value": "#77574E" },
+    "on-tertiary": { "$value": "#FFFFFF" },
+    "tertiary-container": { "$value": "#FFDAD1" },
+    "on-tertiary-container": { "$value": "#2C150F" },
+    "error": { "$value": "#BA1A1A" },
+    "on-error": { "$value": "#FFFFFF" },
+    "error-container": { "$value": "#FFDAD6" },
+    "on-error-container": { "$value": "#410002" },
+    "surface": { "$value": "#FBF8FF" },
+    "on-surface": { "$value": "#1B1B1F" },
+    "surface-variant": { "$value": "#E3E1EC" },
+    "on-surface-variant": { "$value": "#46464F" },
+    "outline": { "$value": "#767680" },
+    "outline-variant": { "$value": "#C7C5D0" },
+    "surface-container-lowest": { "$value": "#FFFFFF" },
+    "surface-container-low": { "$value": "#F5F2FA" },
+    "surface-container": { "$value": "#EFEDF4" },
+    "surface-container-high": { "$value": "#E9E7EF" },
+    "surface-container-highest": { "$value": "#E3E1E9" }
+  },
+  "shape": {
+    "$type": "dimension",
+    "corner-extra-small": { "$value": "4px" },
+    "corner-small": { "$value": "8px" },
+    "corner-medium": { "$value": "12px" },
+    "corner-large": { "$value": "16px" },
+    "corner-extra-large": { "$value": "28px" }
+  },
+  "space": {
+    "$type": "dimension",
+    "inset": { "$value": "16px" },
+    "gutter": { "$value": "8px" }
+  }
+}
