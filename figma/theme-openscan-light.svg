@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1110" height="349" viewBox="0 0 1110 349" text-rendering="geometricPrecision" font-family="sans-serif">
+<g transform="translate(16, 16)">
+  <g id="RootMeasurePolicy">
+    <g id="BoxMeasurePolicy">
+      <g id="BoxMeasurePolicy">
+        <rect x="0" y="0" width="1078" height="317" fill="#FBF8FF"/>
+        <g id="ColumnMeasurePolicy">
+          <g id="EmptyMeasurePolicy">
+            <text x="42" y="98.67" font-size="57.75" font-family="sans-serif" font-weight="400" fill="#1B1B1F">OpenScan theme</text>
+          </g>
+          <g id="RowMeasurePolicy">
+            <rect x="42" y="137" width="994" height="117" fill="#4355B9"/>
+            <g id="EmptyMeasurePolicy">
+              <text x="74" y="207.92" font-size="36.75" font-family="sans-serif" font-weight="500" letter-spacing="0.26" fill="#FFFFFF">Primary</text>
+            </g>
+            <g id="BoxKt">
+              <rect x="951" y="169" width="53" height="53" fill="#FFFFFF"/>
+            </g>
+          </g>
+          <g id="RowMeasurePolicy">
+            <rect x="42" y="42" width="994" height="0" fill="#DDE1FF"/>
+            <text x="42" y="80.92" font-size="36.75" font-family="sans-serif" font-weight="500" letter-spacing="0.26" fill="#00105C">Primary container</text>
+            <g id="EmptyMeasurePolicy">
+            </g>
+            <g id="BoxKt">
+              <rect x="42" y="42" width="53" height="0" fill="#00105C"/>
+            </g>
+          </g>
+          <g id="RowMeasurePolicy">
+            <rect x="42" y="42" width="994" height="0" fill="#5A5D72"/>
+            <g id="EmptyMeasurePolicy">
+            </g>
+            <g id="BoxKt">
+              <rect x="42" y="42" width="53" height="0" fill="#FFFFFF"/>
+            </g>
+          </g>
+          <g id="RowMeasurePolicy">
+            <rect x="42" y="42" width="994" height="0" fill="#77574E"/>
+            <g id="EmptyMeasurePolicy">
+            </g>
+            <g id="BoxKt">
+              <rect x="42" y="42" width="53" height="0" fill="#FFFFFF"/>
+            </g>
+          </g>
+          <g id="RowMeasurePolicy">
+            <rect x="42" y="42" width="994" height="0" fill="#BA1A1A"/>
+            <g id="EmptyMeasurePolicy">
+            </g>
+            <g id="BoxKt">
+              <rect x="42" y="42" width="53" height="0" fill="#FFFFFF"/>
+            </g>
+          </g>
+          <g id="RowMeasurePolicy">
+            <rect x="42" y="42" width="994" height="0" fill="#FBF8FF"/>
+            <g id="EmptyMeasurePolicy">
+            </g>
+            <g id="BoxKt">
+              <rect x="42" y="42" width="53" height="0" fill="#1B1B1F"/>
+            </g>
+          </g>
+          <g id="RowMeasurePolicy">
+            <rect x="42" y="42" width="994" height="0" fill="#EFEDF4"/>
+            <g id="EmptyMeasurePolicy">
+            </g>
+            <g id="BoxKt">
+              <rect x="42" y="42" width="53" height="0" fill="#1B1B1F"/>
+            </g>
+          </g>
+          <g id="BoxKt">
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</g>
+</svg>

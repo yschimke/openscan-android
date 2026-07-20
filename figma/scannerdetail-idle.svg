@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1108" height="2428" viewBox="0 0 1108 2428" text-rendering="geometricPrecision" font-family="sans-serif">
+<g transform="translate(16, 16)">
+  <g id="RootMeasurePolicy">
+    <g id="BoxMeasurePolicy">
+      <g id="BoxMeasurePolicy">
+        <rect x="0" y="0" width="1076" height="2396" fill="#FBF8FF"/>
+        <g id="ColumnMeasurePolicy">
+          <g id="ColumnMeasurePolicy">
+            <g id="EmptyMeasurePolicy">
+              <text x="42" y="105.73" font-size="63" font-family="sans-serif" font-weight="600" fill="#1B1B1F">Workshop OpenScan</text>
+            </g>
+            <g id="RowMeasurePolicy">
+              <g id="RowMeasurePolicy">
+                <g id="BoxKt">
+                  <rect x="42" y="139" width="26" height="26" rx="13" ry="13" fill="#4355B9"/>
+                </g>
+                <g id="EmptyMeasurePolicy">
+                  <text x="79" y="162.86" font-size="31.5" font-family="sans-serif" font-weight="500" letter-spacing="1.31" fill="#46464F">Online</text>
+                </g>
+              </g>
+              <g id="EmptyMeasurePolicy">
+                <text x="207" y="162.86" font-size="31.5" font-family="sans-serif" font-weight="400" letter-spacing="1.05" fill="#46464F">openscan.local · fw 3.1.0</text>
+              </g>
+            </g>
+          </g>
+          <g id="BoxMeasurePolicy">
+            <rect x="42" y="205" width="992" height="1040" rx="31.5" ry="31.5" fill="#EFEDF4"/>
+            <g id="ColumnMeasurePolicy">
+              <g id="ColumnMeasurePolicy">
+                <g id="EmptyMeasurePolicy">
+                  <text x="84" y="306.92" font-size="36.75" font-family="sans-serif" font-weight="600" letter-spacing="0.26" fill="#4355B9">Camera</text>
+                </g>
+                <g id="BoxMeasurePolicy">
+                  <rect x="84" y="364" width="908" height="681" rx="31.5" ry="31.5" fill="#E3E1E9"/>
+                  <g id="EmptyMeasurePolicy">
+                    <text x="446" y="716.92" font-size="36.75" font-family="sans-serif" font-weight="400" letter-spacing="0.52" fill="#46464F">No preview</text>
+                  </g>
+                </g>
+                <g id="RowMeasurePolicy">
+                  <g id="EmptyMeasurePolicy">
+                    <text x="84" y="1152.92" font-size="36.75" font-family="sans-serif" font-weight="500" letter-spacing="0.26" fill="#1B1B1F">Turntable</text>
+                  </g>
+                  <g id="BoxMeasurePolicy">
+                    <rect x="262" y="1088" width="202" height="105" rx="52.5" ry="52.5" fill="#DFE1F9"/>
+                    <g id="RowMeasurePolicy">
+                      <g id="EmptyMeasurePolicy">
+                        <text x="325" y="1152.92" font-size="36.75" font-family="sans-serif" font-weight="500" letter-spacing="0.26" fill="#171A2C">−15°</text>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="BoxMeasurePolicy">
+                    <rect x="485" y="1088" width="202" height="105" rx="52.5" ry="52.5" fill="#DFE1F9"/>
+                    <g id="RowMeasurePolicy">
+                      <g id="EmptyMeasurePolicy">
+                        <text x="548" y="1152.92" font-size="36.75" font-family="sans-serif" font-weight="500" letter-spacing="0.26" fill="#171A2C">+15°</text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="BoxMeasurePolicy">
+            <rect x="42" y="1277" width="992" height="643" rx="31.5" ry="31.5" fill="#EFEDF4"/>
+            <g id="ColumnMeasurePolicy">
+              <g id="ColumnMeasurePolicy">
+                <g id="EmptyMeasurePolicy">
+                  <text x="84" y="1378.92" font-size="36.75" font-family="sans-serif" font-weight="600" letter-spacing="0.26" fill="#4355B9">Scan</text>
+                </g>
+                <g id="RowMeasurePolicy">
+                  <g id="EmptyMeasurePolicy">
+                    <text x="84" y="1513.99" font-size="42" font-family="sans-serif" font-weight="400" letter-spacing="1.31" fill="#1B1B1F">Points</text>
+                  </g>
+                  <g id="RowMeasurePolicy">
+                    <g id="BoxMeasurePolicy">
+                      <g id="EmptyMeasurePolicy">
+                        <text x="699" y="1513.99" font-size="42" font-family="sans-serif" font-weight="400" letter-spacing="1.31" fill="#1B1B1F">−</text>
+                      </g>
+                    </g>
+                    <g id="EmptyMeasurePolicy">
+                      <text x="795" y="1513.99" font-size="42" font-family="sans-serif" font-weight="500" letter-spacing="0.52" fill="#1B1B1F">40</text>
+                    </g>
+                    <g id="BoxMeasurePolicy">
+                      <g id="EmptyMeasurePolicy">
+                        <text x="917" y="1513.99" font-size="42" font-family="sans-serif" font-weight="400" letter-spacing="1.31" fill="#1B1B1F">+</text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+                <g id="RowMeasurePolicy">
+                  <g id="EmptyMeasurePolicy">
+                    <text x="84" y="1671.99" font-size="42" font-family="sans-serif" font-weight="400" letter-spacing="1.31" fill="#1B1B1F">Rotations</text>
+                  </g>
+                  <g id="RowMeasurePolicy">
+                    <g id="BoxMeasurePolicy">
+                      <g id="EmptyMeasurePolicy">
+                        <text x="724" y="1671.99" font-size="42" font-family="sans-serif" font-weight="400" letter-spacing="1.31" fill="#1B1B1F">−</text>
+                      </g>
+                    </g>
+                    <g id="EmptyMeasurePolicy">
+                      <text x="820" y="1671.99" font-size="42" font-family="sans-serif" font-weight="500" letter-spacing="0.52" fill="#1B1B1F">2</text>
+                    </g>
+                    <g id="BoxMeasurePolicy">
+                      <g id="EmptyMeasurePolicy">
+                        <text x="917" y="1671.99" font-size="42" font-family="sans-serif" font-weight="400" letter-spacing="1.31" fill="#1B1B1F">+</text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+                <g id="BoxMeasurePolicy">
+                  <rect x="84" y="1763" width="908" height="105" rx="52.5" ry="52.5" fill="#4355B9"/>
+                  <g id="RowMeasurePolicy">
+                    <g id="EmptyMeasurePolicy">
+                      <text x="453" y="1827.92" font-size="36.75" font-family="sans-serif" font-weight="500" letter-spacing="0.26" fill="#FFFFFF">Start scan</text>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="BoxMeasurePolicy">
+            <rect x="43" y="1964" width="990" height="103" rx="51.5" ry="51.5" fill="none" stroke="#C7C5D0" stroke-width="2.62"/>
+            <g id="RowMeasurePolicy">
+              <g id="EmptyMeasurePolicy">
+                <text x="348" y="2027.92" font-size="36.75" font-family="sans-serif" font-weight="500" letter-spacing="0.26" fill="#46464F">Open full web interface</text>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</g>
+</svg>

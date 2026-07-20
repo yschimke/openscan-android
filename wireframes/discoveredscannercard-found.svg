@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1078 317" width="1078" height="317" role="img" aria-label="DiscoveredScannerCard/Found layout wireframe">
+  <title>DiscoveredScannerCard/Found — layout wireframe (slots + tokens)</title>
+  <rect width="1078" height="317" fill="#ffffff"/>
+  <g>
+    <rect x="0" y="0" width="1078" height="317" fill="none" fill-opacity="0" stroke="#5B6470" stroke-width="1" stroke-opacity="0.5"/>
+  </g>
+  <g>
+    <rect x="0" y="0" width="1078" height="317" fill="none" fill-opacity="0" stroke="#2E7D6B" stroke-width="1" stroke-opacity="0.5"/>
+  </g>
+  <g>
+    <rect x="0" y="0" width="1078" height="278" fill="#FBF8FF" fill-opacity="1" stroke="#8E6BA8" stroke-width="1.5" stroke-opacity="1"/>
+    <text x="3" y="12" font-family="system-ui, sans-serif" font-size="9" fill="#8E6BA8">#FFFBF8FF</text>
+  </g>
+  <g>
+    <path d="M73.5,42 H1004.5 A31.5,31.5 0 0 1 1036,73.5 V204.5 A31.5,31.5 0 0 1 1004.5,236 H73.5 A31.5,31.5 0 0 1 42,204.5 V73.5 A31.5,31.5 0 0 1 73.5,42 Z" fill="#F5F2FA" fill-opacity="1" stroke="#B0813B" stroke-width="1.5" stroke-opacity="1"/>
+    <text x="45" y="54" font-family="system-ui, sans-serif" font-size="9" fill="#B0813B">#FFF5F2FA  pad 16.0dp</text>
+  </g>
+  <g>
+    <rect x="42" y="42" width="994" height="194" fill="none" fill-opacity="0" stroke="#3B72A8" stroke-width="1" stroke-opacity="0.5"/>
+  </g>
+  <g>
+    <rect x="84" y="84" width="910" height="110" fill="none" fill-opacity="0" stroke="#A85B6B" stroke-width="1" stroke-opacity="0.5"/>
+  </g>
+  <g>
+    <rect x="84" y="84" width="296" height="110" fill="none" fill-opacity="0" stroke="#4F8A4A" stroke-width="1" stroke-opacity="0.5"/>
+  </g>
+  <g>
+    <rect x="84" y="84" width="296" height="63" fill="none" fill-opacity="0" stroke="#7A7A33" stroke-width="1" stroke-opacity="0.5"/>
+  </g>
+  <g>
+    <rect x="84" y="152" width="235" height="42" fill="none" fill-opacity="0" stroke="#7A7A33" stroke-width="1" stroke-opacity="0.5"/>
+  </g>
+  <g>
+    <rect x="928" y="113" width="66" height="53" fill="none" fill-opacity="0" stroke="#4F8A4A" stroke-width="1" stroke-opacity="0.5"/>
+  </g>
+</svg>

@@ -1,0 +1,1141 @@
+{
+  "schema": "design-parity-catalog/v1",
+  "system": "openscan-android",
+  "title": "OpenScan Mobile",
+  "components": [
+    {
+      "componentId": "Theme/OpenScan-Light",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/theme-openscan-light/ideal__default__light__compact.png",
+          "state": "default",
+          "width": 1081,
+          "height": 1156,
+          "theme": "light",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/openscan-android/p/theme-openscan-light__ideal__default__light__compact",
+          "previewId": "ee.schimke.openscan.app.ui.ThemeFoundationPreviewsKt.ThemeFoundationOpenScanLightPreview_Theme — light"
+        }
+      ],
+      "greenlines": [],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 74,
+            "y": 169,
+            "width": 930,
+            "height": 53
+          },
+          "padding": {
+            "start": 12,
+            "top": 12,
+            "end": 12,
+            "bottom": 12
+          }
+        },
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "padding": {
+            "start": 12,
+            "top": 12,
+            "end": 12,
+            "bottom": 12
+          }
+        },
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "padding": {
+            "start": 12,
+            "top": 12,
+            "end": 12,
+            "bottom": 12
+          }
+        },
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "padding": {
+            "start": 12,
+            "top": 12,
+            "end": 12,
+            "bottom": 12
+          }
+        },
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "padding": {
+            "start": 12,
+            "top": 12,
+            "end": 12,
+            "bottom": 12
+          }
+        },
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "padding": {
+            "start": 12,
+            "top": 12,
+            "end": 12,
+            "bottom": 12
+          }
+        },
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "padding": {
+            "start": 12,
+            "top": 12,
+            "end": 12,
+            "bottom": 12
+          }
+        }
+      ],
+      "group": "Foundation",
+      "caption": "OpenScan theme — colour roles (light).",
+      "wireframe": "wireframes/theme-openscan-light.svg"
+    },
+    {
+      "componentId": "Theme/OpenScan-Dark",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/theme-openscan-dark/ideal__default__dark__compact.png",
+          "state": "default",
+          "width": 1081,
+          "height": 1156,
+          "theme": "dark",
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/openscan-android/p/theme-openscan-dark__ideal__default__dark__compact",
+          "previewId": "ee.schimke.openscan.app.ui.ThemeFoundationPreviewsKt.ThemeFoundationOpenScanDarkPreview_Theme — dark"
+        }
+      ],
+      "greenlines": [],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 74,
+            "y": 169,
+            "width": 930,
+            "height": 53
+          },
+          "padding": {
+            "start": 12,
+            "top": 12,
+            "end": 12,
+            "bottom": 12
+          }
+        },
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "padding": {
+            "start": 12,
+            "top": 12,
+            "end": 12,
+            "bottom": 12
+          }
+        },
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "padding": {
+            "start": 12,
+            "top": 12,
+            "end": 12,
+            "bottom": 12
+          }
+        },
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "padding": {
+            "start": 12,
+            "top": 12,
+            "end": 12,
+            "bottom": 12
+          }
+        },
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "padding": {
+            "start": 12,
+            "top": 12,
+            "end": 12,
+            "bottom": 12
+          }
+        },
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "padding": {
+            "start": 12,
+            "top": 12,
+            "end": 12,
+            "bottom": 12
+          }
+        },
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "padding": {
+            "start": 12,
+            "top": 12,
+            "end": 12,
+            "bottom": 12
+          }
+        }
+      ],
+      "group": "Foundation",
+      "caption": "OpenScan theme (dark).",
+      "wireframe": "wireframes/theme-openscan-dark.svg"
+    },
+    {
+      "componentId": "SavedScannerCard/Online",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/savedscannercard-online/ideal__default__compact.png",
+          "state": "default",
+          "width": 1081,
+          "height": 278,
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/openscan-android/p/savedscannercard-online__ideal__default__compact",
+          "previewId": "ee.schimke.openscan.app.ui.ComponentPreviewsKt.SavedScannerCardPreview_SavedScannerCard"
+        }
+      ],
+      "greenlines": [],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 42,
+            "y": 42,
+            "width": 994,
+            "height": 194
+          },
+          "padding": {
+            "start": 16,
+            "top": 16,
+            "end": 16,
+            "bottom": 16
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 861,
+            "y": 126,
+            "width": 26,
+            "height": 26
+          },
+          "cornerRadius": 4.95
+        }
+      ],
+      "group": "Scanners",
+      "caption": "A saved scanner card with reachability.",
+      "wireframe": "wireframes/savedscannercard-online.svg"
+    },
+    {
+      "componentId": "DiscoveredScannerCard/Found",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/discoveredscannercard-found/ideal__default__compact.png",
+          "state": "default",
+          "width": 1081,
+          "height": 278,
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/openscan-android/p/discoveredscannercard-found__ideal__default__compact",
+          "previewId": "ee.schimke.openscan.app.ui.ComponentPreviewsKt.DiscoveredScannerCardPreview_DiscoveredScannerCard"
+        }
+      ],
+      "greenlines": [],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 42,
+            "y": 42,
+            "width": 994,
+            "height": 194
+          },
+          "padding": {
+            "start": 16,
+            "top": 16,
+            "end": 16,
+            "bottom": 16
+          },
+          "cornerRadius": 12
+        }
+      ],
+      "group": "Scanners",
+      "caption": "A device found on the network, ready to add.",
+      "wireframe": "wireframes/discoveredscannercard-found.svg"
+    },
+    {
+      "componentId": "ScannerList/Populated",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/scannerlist-populated/ideal__default__compact.png",
+          "state": "default",
+          "width": 1078,
+          "height": 2399,
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/openscan-android/p/scannerlist-populated__ideal__default__compact",
+          "previewId": "ee.schimke.openscan.app.ui.ComponentPreviewsKt.ScannerListPopulatedPreview_ScannerList — populated"
+        }
+      ],
+      "greenlines": [
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 42,
+              "y": 1212,
+              "width": 992,
+              "height": 105
+            }
+          },
+          "bounds": {
+            "x": 42,
+            "y": 1212,
+            "width": 992,
+            "height": 105
+          }
+        }
+      ],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 42,
+            "y": 0,
+            "width": 992,
+            "height": 2396
+          },
+          "padding": {
+            "start": 16,
+            "top": 0,
+            "end": 16,
+            "bottom": 0
+          }
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 63,
+            "width": 261,
+            "height": 53
+          },
+          "label": "Saved scanners",
+          "padding": {
+            "start": 0,
+            "top": 8,
+            "end": 0,
+            "bottom": 4
+          }
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 159,
+            "width": 992,
+            "height": 194
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 859,
+            "y": 243,
+            "width": 26,
+            "height": 26
+          },
+          "cornerRadius": 4.95
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 385,
+            "width": 992,
+            "height": 194
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 853,
+            "y": 469,
+            "width": 26,
+            "height": 26
+          },
+          "cornerRadius": 4.95
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 632,
+            "width": 271,
+            "height": 53
+          },
+          "label": "On your network",
+          "padding": {
+            "start": 0,
+            "top": 8,
+            "end": 0,
+            "bottom": 4
+          }
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 728,
+            "width": 992,
+            "height": 194
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 954,
+            "width": 992,
+            "height": 194
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 1212,
+            "width": 992,
+            "height": 105
+          },
+          "role": "Button",
+          "padding": {
+            "start": 0,
+            "top": 8,
+            "end": 0,
+            "bottom": 0
+          },
+          "cornerRadius": 20
+        }
+      ],
+      "group": "Screens · Scanner list",
+      "caption": "Home screen — saved scanners + network discoveries.",
+      "wireframe": "wireframes/scannerlist-populated.svg"
+    },
+    {
+      "componentId": "ScannerList/Empty",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/scannerlist-empty/ideal__default__compact.png",
+          "state": "default",
+          "width": 1078,
+          "height": 2399,
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/openscan-android/p/scannerlist-empty__ideal__default__compact",
+          "previewId": "ee.schimke.openscan.app.ui.ComponentPreviewsKt.ScannerListEmptyPreview_ScannerList — empty"
+        }
+      ],
+      "greenlines": [
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 357,
+              "y": 476,
+              "width": 363,
+              "height": 105
+            }
+          },
+          "bounds": {
+            "x": 357,
+            "y": 476,
+            "width": 363,
+            "height": 105
+          }
+        }
+      ],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 42,
+            "y": 0,
+            "width": 992,
+            "height": 2396
+          },
+          "padding": {
+            "start": 16,
+            "top": 0,
+            "end": 16,
+            "bottom": 0
+          }
+        },
+        {
+          "bounds": {
+            "x": 357,
+            "y": 476,
+            "width": 363,
+            "height": 105
+          },
+          "role": "Button",
+          "cornerRadius": 20
+        }
+      ],
+      "group": "Screens · Scanner list",
+      "caption": "Home screen — nothing found or saved yet.",
+      "wireframe": "wireframes/scannerlist-empty.svg"
+    },
+    {
+      "componentId": "ScannerDetail/Idle",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/scannerdetail-idle/ideal__default__compact.png",
+          "state": "default",
+          "width": 1078,
+          "height": 2399,
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/openscan-android/p/scannerdetail-idle__ideal__default__compact",
+          "previewId": "ee.schimke.openscan.app.ui.ComponentPreviewsKt.ScannerDetailIdlePreview_ScannerDetail — idle"
+        }
+      ],
+      "greenlines": [
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 262,
+              "y": 1088,
+              "width": 202,
+              "height": 105
+            }
+          },
+          "bounds": {
+            "x": 262,
+            "y": 1088,
+            "width": 202,
+            "height": 105
+          }
+        },
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 485,
+              "y": 1088,
+              "width": 202,
+              "height": 105
+            }
+          },
+          "bounds": {
+            "x": 485,
+            "y": 1088,
+            "width": 202,
+            "height": 105
+          }
+        },
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 659,
+              "y": 1447,
+              "width": 105,
+              "height": 105
+            }
+          },
+          "bounds": {
+            "x": 659,
+            "y": 1447,
+            "width": 105,
+            "height": 105
+          }
+        },
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 877,
+              "y": 1447,
+              "width": 105,
+              "height": 105
+            }
+          },
+          "bounds": {
+            "x": 877,
+            "y": 1447,
+            "width": 105,
+            "height": 105
+          }
+        },
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 684,
+              "y": 1605,
+              "width": 105,
+              "height": 105
+            }
+          },
+          "bounds": {
+            "x": 684,
+            "y": 1605,
+            "width": 105,
+            "height": 105
+          }
+        },
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 877,
+              "y": 1605,
+              "width": 105,
+              "height": 105
+            }
+          },
+          "bounds": {
+            "x": 877,
+            "y": 1605,
+            "width": 105,
+            "height": 105
+          }
+        },
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 84,
+              "y": 1763,
+              "width": 908,
+              "height": 105
+            }
+          },
+          "bounds": {
+            "x": 84,
+            "y": 1763,
+            "width": 908,
+            "height": 105
+          }
+        },
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 42,
+              "y": 1963,
+              "width": 992,
+              "height": 105
+            }
+          },
+          "bounds": {
+            "x": 42,
+            "y": 1963,
+            "width": 992,
+            "height": 105
+          }
+        }
+      ],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1076,
+            "height": 2396
+          },
+          "padding": {
+            "start": 16,
+            "top": 16,
+            "end": 16,
+            "bottom": 16
+          },
+          "gap": 12
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 139,
+            "width": 26,
+            "height": 26
+          },
+          "cornerRadius": 4.95
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 205,
+            "width": 992,
+            "height": 1040
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 84,
+            "y": 268,
+            "width": 129,
+            "height": 53
+          },
+          "label": "Camera",
+          "padding": {
+            "start": 0,
+            "top": 8,
+            "end": 0,
+            "bottom": 4
+          }
+        },
+        {
+          "bounds": {
+            "x": 84,
+            "y": 364,
+            "width": 908,
+            "height": 681
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 262,
+            "y": 1088,
+            "width": 202,
+            "height": 105
+          },
+          "role": "Button",
+          "cornerRadius": 20
+        },
+        {
+          "bounds": {
+            "x": 485,
+            "y": 1088,
+            "width": 202,
+            "height": 105
+          },
+          "role": "Button",
+          "cornerRadius": 20
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 1277,
+            "width": 992,
+            "height": 643
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 84,
+            "y": 1340,
+            "width": 83,
+            "height": 53
+          },
+          "label": "Scan",
+          "padding": {
+            "start": 0,
+            "top": 8,
+            "end": 0,
+            "bottom": 4
+          }
+        },
+        {
+          "bounds": {
+            "x": 659,
+            "y": 1447,
+            "width": 105,
+            "height": 105
+          },
+          "role": "Button",
+          "cornerRadius": 20
+        },
+        {
+          "bounds": {
+            "x": 877,
+            "y": 1447,
+            "width": 105,
+            "height": 105
+          },
+          "role": "Button",
+          "cornerRadius": 20
+        },
+        {
+          "bounds": {
+            "x": 684,
+            "y": 1605,
+            "width": 105,
+            "height": 105
+          },
+          "role": "Button",
+          "cornerRadius": 20
+        },
+        {
+          "bounds": {
+            "x": 877,
+            "y": 1605,
+            "width": 105,
+            "height": 105
+          },
+          "role": "Button",
+          "cornerRadius": 20
+        },
+        {
+          "bounds": {
+            "x": 84,
+            "y": 1763,
+            "width": 908,
+            "height": 105
+          },
+          "role": "Button",
+          "cornerRadius": 20
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 1963,
+            "width": 992,
+            "height": 105
+          },
+          "role": "Button",
+          "cornerRadius": 20
+        }
+      ],
+      "group": "Screens · Scanner detail",
+      "caption": "Scanner detail — idle, ready to configure and start a scan.",
+      "wireframe": "wireframes/scannerdetail-idle.svg"
+    },
+    {
+      "componentId": "ScannerDetail/Scanning",
+      "images": [
+        {
+          "variant": "ideal",
+          "path": "images/scannerdetail-scanning/ideal__default__compact.png",
+          "state": "default",
+          "width": 1078,
+          "height": 2399,
+          "size": "compact",
+          "livePreview": "https://preview.coo.ee/openscan-android/p/scannerdetail-scanning__ideal__default__compact",
+          "previewId": "ee.schimke.openscan.app.ui.ComponentPreviewsKt.ScannerDetailScanningPreview_ScannerDetail — scanning"
+        }
+      ],
+      "greenlines": [
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 262,
+              "y": 1088,
+              "width": 202,
+              "height": 105
+            }
+          },
+          "bounds": {
+            "x": 262,
+            "y": 1088,
+            "width": 202,
+            "height": 105
+          }
+        },
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 485,
+              "y": 1088,
+              "width": 202,
+              "height": 105
+            }
+          },
+          "bounds": {
+            "x": 485,
+            "y": 1088,
+            "width": 202,
+            "height": 105
+          }
+        },
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 84,
+              "y": 1575,
+              "width": 908,
+              "height": 105
+            }
+          },
+          "bounds": {
+            "x": 84,
+            "y": 1575,
+            "width": 908,
+            "height": 105
+          }
+        },
+        {
+          "kind": "a11y",
+          "severity": "info",
+          "message": "button",
+          "detail": {
+            "role": "button",
+            "bounds": {
+              "x": 42,
+              "y": 1775,
+              "width": 992,
+              "height": 105
+            }
+          },
+          "bounds": {
+            "x": 42,
+            "y": 1775,
+            "width": 992,
+            "height": 105
+          }
+        }
+      ],
+      "redlines": [
+        {
+          "bounds": {
+            "x": 0,
+            "y": 0,
+            "width": 1076,
+            "height": 2396
+          },
+          "padding": {
+            "start": 16,
+            "top": 16,
+            "end": 16,
+            "bottom": 16
+          },
+          "gap": 12
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 139,
+            "width": 26,
+            "height": 26
+          },
+          "cornerRadius": 4.95
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 205,
+            "width": 992,
+            "height": 1040
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 84,
+            "y": 268,
+            "width": 129,
+            "height": 53
+          },
+          "label": "Camera",
+          "padding": {
+            "start": 0,
+            "top": 8,
+            "end": 0,
+            "bottom": 4
+          }
+        },
+        {
+          "bounds": {
+            "x": 84,
+            "y": 364,
+            "width": 908,
+            "height": 681
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 262,
+            "y": 1088,
+            "width": 202,
+            "height": 105
+          },
+          "role": "Button",
+          "cornerRadius": 20
+        },
+        {
+          "bounds": {
+            "x": 485,
+            "y": 1088,
+            "width": 202,
+            "height": 105
+          },
+          "role": "Button",
+          "cornerRadius": 20
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 1277,
+            "width": 992,
+            "height": 455
+          },
+          "cornerRadius": 12
+        },
+        {
+          "bounds": {
+            "x": 84,
+            "y": 1340,
+            "width": 83,
+            "height": 53
+          },
+          "label": "Scan",
+          "padding": {
+            "start": 0,
+            "top": 8,
+            "end": 0,
+            "bottom": 4
+          }
+        },
+        {
+          "bounds": {
+            "x": 84,
+            "y": 1495,
+            "width": 908,
+            "height": 63
+          },
+          "padding": {
+            "start": 0,
+            "top": 10,
+            "end": 0,
+            "bottom": 10
+          }
+        },
+        {
+          "bounds": {
+            "x": 84,
+            "y": 1575,
+            "width": 908,
+            "height": 105
+          },
+          "role": "Button",
+          "cornerRadius": 20
+        },
+        {
+          "bounds": {
+            "x": 42,
+            "y": 1775,
+            "width": 992,
+            "height": 105
+          },
+          "role": "Button",
+          "cornerRadius": 20
+        }
+      ],
+      "group": "Screens · Scanner detail",
+      "caption": "Scanner detail — a scan in progress with live capture count.",
+      "wireframe": "wireframes/scannerdetail-scanning.svg"
+    }
+  ],
+  "library": [
+    "androidx.compose.material3:material3",
+    "ee.schimke.openscan:openscan-components (OpenScanTheme)"
+  ],
+  "renderer": "compose-preview 0.16.39",
+  "generatedAt": "2026-07-20T09:22:55.435Z",
+  "source": {
+    "repo": "yschimke/openscan-android",
+    "ref": "main",
+    "module": ":app"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "system": "openscan-android",
+  "title": "OpenScan Mobile",
+  "label": "Compose",
+  "source": {
+    "repo": "yschimke/openscan-android",
+    "ref": "main",
+    "module": ":app"
+  },
+  "generatedAt": "2026-07-20T09:22:55.454Z",
+  "mappings": [
+    {
+      "componentId": "Theme/OpenScan-Light",
+      "figmaLayerName": "Theme/OpenScan-Light",
+      "componentName": "ThemeFoundationOpenScanLightPreview",
+      "source": "https://github.com/yschimke/openscan-android/blob/main/app/src/main/kotlin/ee/schimke/openscan/app/ui/ThemeFoundationPreviews.kt",
+      "label": "Compose",
+      "confidence": "preview-fallback",
+      "previewName": "ThemeFoundationOpenScanLightPreview",
+      "figmaSvg": "figma/theme-openscan-light.svg"
+    },
+    {
+      "componentId": "Theme/OpenScan-Dark",
+      "figmaLayerName": "Theme/OpenScan-Dark",
+      "componentName": "ThemeFoundationOpenScanDarkPreview",
+      "source": "https://github.com/yschimke/openscan-android/blob/main/app/src/main/kotlin/ee/schimke/openscan/app/ui/ThemeFoundationPreviews.kt",
+      "label": "Compose",
+      "confidence": "preview-fallback",
+      "previewName": "ThemeFoundationOpenScanDarkPreview",
+      "figmaSvg": "figma/theme-openscan-dark.svg"
+    },
+    {
+      "componentId": "SavedScannerCard/Online",
+      "figmaLayerName": "SavedScannerCard/Online",
+      "componentName": "SavedScannerCardPreview",
+      "source": "https://github.com/yschimke/openscan-android/blob/main/app/src/main/kotlin/ee/schimke/openscan/app/ui/ComponentPreviews.kt",
+      "label": "Compose",
+      "confidence": "preview-fallback",
+      "previewName": "SavedScannerCardPreview",
+      "figmaSvg": "figma/savedscannercard-online.svg"
+    },
+    {
+      "componentId": "DiscoveredScannerCard/Found",
+      "figmaLayerName": "DiscoveredScannerCard/Found",
+      "componentName": "DiscoveredScannerCardPreview",
+      "source": "https://github.com/yschimke/openscan-android/blob/main/app/src/main/kotlin/ee/schimke/openscan/app/ui/ComponentPreviews.kt",
+      "label": "Compose",
+      "confidence": "preview-fallback",
+      "previewName": "DiscoveredScannerCardPreview",
+      "figmaSvg": "figma/discoveredscannercard-found.svg"
+    },
+    {
+      "componentId": "ScannerList/Populated",
+      "figmaLayerName": "ScannerList/Populated",
+      "componentName": "ScannerListPopulatedPreview",
+      "source": "https://github.com/yschimke/openscan-android/blob/main/app/src/main/kotlin/ee/schimke/openscan/app/ui/ComponentPreviews.kt",
+      "label": "Compose",
+      "confidence": "preview-fallback",
+      "previewName": "ScannerListPopulatedPreview",
+      "figmaSvg": "figma/scannerlist-populated.svg"
+    },
+    {
+      "componentId": "ScannerList/Empty",
+      "figmaLayerName": "ScannerList/Empty",
+      "componentName": "ScannerListEmptyPreview",
+      "source": "https://github.com/yschimke/openscan-android/blob/main/app/src/main/kotlin/ee/schimke/openscan/app/ui/ComponentPreviews.kt",
+      "label": "Compose",
+      "confidence": "preview-fallback",
+      "previewName": "ScannerListEmptyPreview",
+      "figmaSvg": "figma/scannerlist-empty.svg"
+    },
+    {
+      "componentId": "ScannerDetail/Idle",
+      "figmaLayerName": "ScannerDetail/Idle",
+      "componentName": "ScannerDetailIdlePreview",
+      "source": "https://github.com/yschimke/openscan-android/blob/main/app/src/main/kotlin/ee/schimke/openscan/app/ui/ComponentPreviews.kt",
+      "label": "Compose",
+      "confidence": "preview-fallback",
+      "previewName": "ScannerDetailIdlePreview",
+      "figmaSvg": "figma/scannerdetail-idle.svg"
+    },
+    {
+      "componentId": "ScannerDetail/Scanning",
+      "figmaLayerName": "ScannerDetail/Scanning",
+      "componentName": "ScannerDetailScanningPreview",
+      "source": "https://github.com/yschimke/openscan-android/blob/main/app/src/main/kotlin/ee/schimke/openscan/app/ui/ComponentPreviews.kt",
+      "label": "Compose",
+      "confidence": "preview-fallback",
+      "previewName": "ScannerDetailScanningPreview",
+      "figmaSvg": "figma/scannerdetail-scanning.svg"
+    }
+  ]
+}

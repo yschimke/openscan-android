@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1076 2396" width="1076" height="2396" role="img" aria-label="ScannerList/Empty layout wireframe">
+  <title>ScannerList/Empty — layout wireframe (slots + tokens)</title>
+  <rect width="1076" height="2396" fill="#ffffff"/>
+  <g>
+    <rect x="0" y="0" width="1076" height="2396" fill="none" fill-opacity="0" stroke="#5B6470" stroke-width="1" stroke-opacity="0.5"/>
+  </g>
+  <g>
+    <rect x="0" y="0" width="1076" height="2396" fill="none" fill-opacity="0" stroke="#2E7D6B" stroke-width="1" stroke-opacity="0.5"/>
+  </g>
+  <g>
+    <rect x="0" y="0" width="1076" height="2396" fill="#FBF8FF" fill-opacity="1" stroke="#8E6BA8" stroke-width="1.5" stroke-opacity="1"/>
+    <text x="3" y="12" font-family="system-ui, sans-serif" font-size="9" fill="#8E6BA8">#FFFBF8FF</text>
+  </g>
+  <g>
+    <rect x="42" y="0" width="992" height="2396" fill="none" fill-opacity="0" stroke="#B0813B" stroke-width="1" stroke-opacity="0.5"/>
+  </g>
+  <g>
+    <rect x="42" y="168" width="992" height="423" fill="none" fill-opacity="0" stroke="#3B72A8" stroke-width="1" stroke-opacity="0.5"/>
+  </g>
+  <g>
+    <rect x="334" y="168" width="408" height="74" fill="none" fill-opacity="0" stroke="#A85B6B" stroke-width="1" stroke-opacity="0.5"/>
+  </g>
+  <g>
+    <rect x="42" y="274" width="992" height="159" fill="none" fill-opacity="0" stroke="#A85B6B" stroke-width="1" stroke-opacity="0.5"/>
+  </g>
+  <g>
+    <path d="M409.5,476 H667.5 A52.5,52.5 0 0 1 720,528.5 V528.5 A52.5,52.5 0 0 1 667.5,581 H409.5 A52.5,52.5 0 0 1 357,528.5 V528.5 A52.5,52.5 0 0 1 409.5,476 Z" fill="none" fill-opacity="0" stroke="#C7C5D0" stroke-width="1.5" stroke-opacity="1"/>
+    <text x="360" y="488" font-family="system-ui, sans-serif" font-size="9" fill="#C7C5D0">◻ #FFC7C5D0</text>
+  </g>
+  <g>
+    <rect x="420" y="497" width="237" height="63" fill="none" fill-opacity="0" stroke="#4F8A4A" stroke-width="1" stroke-opacity="0.5"/>
+  </g>
+  <g>
+    <rect x="420" y="502" width="237" height="53" fill="none" fill-opacity="0" stroke="#7A7A33" stroke-width="1" stroke-opacity="0.5"/>
+  </g>
+</svg>
