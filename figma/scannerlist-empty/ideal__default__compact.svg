@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1108" height="2428" viewBox="0 0 1108 2428" text-rendering="geometricPrecision" font-family="sans-serif">
+<g transform="translate(16, 16)">
+  <g id="RootMeasurePolicy">
+    <g id="BoxMeasurePolicy">
+      <g id="BoxMeasurePolicy">
+        <rect x="0" y="0" width="1076" height="2396" fill="#FBF8FF"/>
+        <g id="LayoutNodeSubcompositionsState">
+          <g id="ColumnMeasurePolicy">
+            <g id="EmptyMeasurePolicy">
+              <text x="334" y="224.67" font-size="57.75" font-family="sans-serif" font-weight="400" fill="#1B1B1F">No scanners yet</text>
+            </g>
+            <g id="EmptyMeasurePolicy">
+              <text font-size="36.75" font-family="sans-serif" font-weight="400" letter-spacing="0.52" fill="#46464F"><tspan x="139" y="313">OpenScan devices on your Wi-Fi will appear here</tspan><tspan x="76" y="366">automatically. You can also add one by its address (e.g.</tspan><tspan x="399" y="419">openscan.local).</tspan></text>
+            </g>
+            <g id="BoxMeasurePolicy">
+              <rect x="358" y="477" width="361" height="103" rx="51.5" ry="51.5" fill="none" stroke="#C7C5D0" stroke-width="2.62"/>
+              <g id="RowMeasurePolicy">
+                <g id="EmptyMeasurePolicy">
+                  <text x="420" y="540.92" font-size="36.75" font-family="sans-serif" font-weight="500" letter-spacing="0.26" fill="#46464F">Add a scanner</text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</g>
+</svg>

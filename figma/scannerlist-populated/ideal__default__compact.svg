@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1108" height="2428" viewBox="0 0 1108 2428" text-rendering="geometricPrecision" font-family="sans-serif">
+<g transform="translate(16, 16)">
+  <g id="RootMeasurePolicy">
+    <g id="BoxMeasurePolicy">
+      <g id="BoxMeasurePolicy">
+        <rect x="0" y="0" width="1076" height="2396" fill="#FBF8FF"/>
+        <g id="LayoutNodeSubcompositionsState">
+          <g id="EmptyMeasurePolicy">
+            <text x="42" y="101.92" font-size="36.75" font-family="sans-serif" font-weight="600" letter-spacing="0.26" fill="#4355B9">Saved scanners</text>
+          </g>
+          <g id="BoxMeasurePolicy">
+            <rect x="42" y="159" width="992" height="194" rx="31.5" ry="31.5" fill="#EFEDF4"/>
+            <g id="ColumnMeasurePolicy">
+              <g id="RowMeasurePolicy">
+                <g id="ColumnMeasurePolicy">
+                  <g id="EmptyMeasurePolicy">
+                    <text x="84" y="246.99" font-size="42" font-family="sans-serif" font-weight="600" letter-spacing="0.52" fill="#1B1B1F">Workshop OpenScan</text>
+                  </g>
+                  <g id="EmptyMeasurePolicy">
+                    <text x="84" y="300.86" font-size="31.5" font-family="sans-serif" font-weight="400" letter-spacing="1.05" fill="#46464F">openscan.local</text>
+                  </g>
+                </g>
+                <g id="RowMeasurePolicy">
+                  <g id="BoxKt">
+                    <rect x="859" y="243" width="26" height="26" rx="13" ry="13" fill="#4355B9"/>
+                  </g>
+                  <g id="EmptyMeasurePolicy">
+                    <text x="896" y="266.86" font-size="31.5" font-family="sans-serif" font-weight="500" letter-spacing="1.31" fill="#46464F">Online</text>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="BoxMeasurePolicy">
+            <rect x="42" y="385" width="992" height="194" rx="31.5" ry="31.5" fill="#EFEDF4"/>
+            <g id="ColumnMeasurePolicy">
+              <g id="RowMeasurePolicy">
+                <g id="ColumnMeasurePolicy">
+                  <g id="EmptyMeasurePolicy">
+                    <text x="84" y="472.99" font-size="42" font-family="sans-serif" font-weight="600" letter-spacing="0.52" fill="#1B1B1F">Garage Mini</text>
+                  </g>
+                  <g id="EmptyMeasurePolicy">
+                    <text x="84" y="526.86" font-size="31.5" font-family="sans-serif" font-weight="400" letter-spacing="1.05" fill="#46464F">192.168.1.42</text>
+                  </g>
+                </g>
+                <g id="RowMeasurePolicy">
+                  <g id="BoxKt">
+                    <rect x="853" y="469" width="26" height="26" rx="13" ry="13" fill="#BA1A1A"/>
+                  </g>
+                  <g id="EmptyMeasurePolicy">
+                    <text x="890" y="492.86" font-size="31.5" font-family="sans-serif" font-weight="500" letter-spacing="1.31" fill="#46464F">Offline</text>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="EmptyMeasurePolicy">
+            <text x="42" y="670.92" font-size="36.75" font-family="sans-serif" font-weight="600" letter-spacing="0.26" fill="#4355B9">On your network</text>
+          </g>
+          <g id="BoxMeasurePolicy">
+            <rect x="42" y="728" width="992" height="194" rx="31.5" ry="31.5" fill="#F5F2FA"/>
+            <g id="ColumnMeasurePolicy">
+              <g id="RowMeasurePolicy">
+                <g id="ColumnMeasurePolicy">
+                  <g id="EmptyMeasurePolicy">
+                    <text x="84" y="815.99" font-size="42" font-family="sans-serif" font-weight="500" letter-spacing="0.52" fill="#1B1B1F">OpenScan-Classic</text>
+                  </g>
+                  <g id="EmptyMeasurePolicy">
+                    <text x="84" y="869.86" font-size="31.5" font-family="sans-serif" font-weight="400" letter-spacing="1.05" fill="#46464F">openscan-2.local:80</text>
+                  </g>
+                </g>
+                <g id="EmptyMeasurePolicy">
+                  <text x="926" y="837.92" font-size="36.75" font-family="sans-serif" font-weight="500" letter-spacing="0.26" fill="#4355B9">Add</text>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="BoxMeasurePolicy">
+            <rect x="42" y="954" width="992" height="194" rx="31.5" ry="31.5" fill="#F5F2FA"/>
+            <g id="ColumnMeasurePolicy">
+              <g id="RowMeasurePolicy">
+                <g id="ColumnMeasurePolicy">
+                  <g id="EmptyMeasurePolicy">
+                    <text x="84" y="1041.99" font-size="42" font-family="sans-serif" font-weight="500" letter-spacing="0.52" fill="#1B1B1F">OpenScan-Mini</text>
+                  </g>
+                  <g id="EmptyMeasurePolicy">
+                    <text x="84" y="1095.86" font-size="31.5" font-family="sans-serif" font-weight="400" letter-spacing="1.05" fill="#46464F">192.168.1.77:80</text>
+                  </g>
+                </g>
+                <g id="EmptyMeasurePolicy">
+                  <text x="926" y="1063.92" font-size="36.75" font-family="sans-serif" font-weight="500" letter-spacing="0.26" fill="#4355B9">Add</text>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g id="BoxMeasurePolicy">
+            <rect x="43" y="1213" width="990" height="103" rx="51.5" ry="51.5" fill="none" stroke="#C7C5D0" stroke-width="2.62"/>
+            <g id="RowMeasurePolicy">
+              <g id="EmptyMeasurePolicy">
+                <text x="326" y="1276.92" font-size="36.75" font-family="sans-serif" font-weight="500" letter-spacing="0.26" fill="#46464F">Add a scanner by address</text>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</g>
+</svg>

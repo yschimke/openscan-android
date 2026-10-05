@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1110" height="310" viewBox="0 0 1110 310" text-rendering="geometricPrecision" font-family="sans-serif">
+<g transform="translate(16, 16)">
+  <g id="RootMeasurePolicy">
+    <g id="BoxMeasurePolicy">
+      <g id="BoxMeasurePolicy">
+        <rect x="0" y="0" width="1078" height="278" fill="#FBF8FF"/>
+        <g id="BoxMeasurePolicy">
+          <rect x="42" y="42" width="994" height="194" rx="31.5" ry="31.5" fill="#F5F2FA"/>
+          <g id="ColumnMeasurePolicy">
+            <g id="RowMeasurePolicy">
+              <g id="ColumnMeasurePolicy">
+                <g id="EmptyMeasurePolicy">
+                  <text x="84" y="129.99" font-size="42" font-family="sans-serif" font-weight="500" letter-spacing="0.52" fill="#1B1B1F">OpenScan-Mini</text>
+                </g>
+                <g id="EmptyMeasurePolicy">
+                  <text x="84" y="183.86" font-size="31.5" font-family="sans-serif" font-weight="400" letter-spacing="1.05" fill="#46464F">192.168.1.77:80</text>
+                </g>
+              </g>
+              <g id="EmptyMeasurePolicy">
+                <text x="928" y="151.92" font-size="36.75" font-family="sans-serif" font-weight="500" letter-spacing="0.26" fill="#4355B9">Add</text>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</g>
+</svg>
