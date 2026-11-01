@@ -4,9 +4,9 @@ import ee.schimke.openscan.core.discovery.DiscoveredScanner
 import ee.schimke.openscan.core.manager.ScannerState
 import ee.schimke.openscan.core.model.CameraInfo
 import ee.schimke.openscan.core.model.DeviceInfo
+import ee.schimke.openscan.core.model.ScanStatus
 import ee.schimke.openscan.core.model.Scanner
 import ee.schimke.openscan.core.model.ScannerReachability
-import ee.schimke.openscan.core.model.ScanStatus
 
 /** Shared sample data for the design-parity previews (and app @Preview reuse). */
 internal object PreviewData {
@@ -35,7 +35,8 @@ internal object PreviewData {
       device = DeviceInfo(name = "Workshop OpenScan", model = "Mini", firmwareVersion = "3.1.0"),
       cameras = listOf(CameraInfo("main", "picam2")),
       scan =
-        if (active) ScanStatus(phaseRaw = "capturing", captured = 18, total = 40, project = "vase-01")
+        if (active)
+          ScanStatus(phaseRaw = "capturing", captured = 18, total = 40, project = "vase-01")
         else ScanStatus(phaseRaw = "idle"),
     )
 }

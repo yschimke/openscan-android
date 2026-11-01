@@ -37,7 +37,11 @@ fun ReachabilityPill(reachability: ScannerReachability, modifier: Modifier = Mod
     horizontalArrangement = Arrangement.spacedBy(Dimens.XS),
   ) {
     Box(Modifier.size(10.dp).background(color, CircleShape))
-    Text(label, style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+    Text(
+      label,
+      style = MaterialTheme.typography.labelMedium,
+      color = MaterialTheme.colorScheme.onSurfaceVariant,
+    )
   }
 }
 
@@ -60,7 +64,11 @@ fun SavedScannerCard(
       verticalAlignment = Alignment.CenterVertically,
     ) {
       Column(verticalArrangement = Arrangement.spacedBy(Dimens.XXS)) {
-        Text(scanner.name, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+        Text(
+          scanner.name,
+          style = MaterialTheme.typography.titleMedium,
+          fontWeight = FontWeight.SemiBold,
+        )
         Text(
           scanner.baseUrl.removePrefix("http://"),
           style = MaterialTheme.typography.bodySmall,
@@ -83,8 +91,7 @@ fun DiscoveredScannerCard(
   Card(
     onClick = onAdd,
     modifier = modifier.fillMaxWidth(),
-    colors =
-      CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceContainerLow),
+    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceContainerLow),
   ) {
     Row(
       Modifier.fillMaxWidth().padding(Dimens.L),
@@ -93,9 +100,17 @@ fun DiscoveredScannerCard(
     ) {
       Column(verticalArrangement = Arrangement.spacedBy(Dimens.XXS)) {
         Text(name, style = MaterialTheme.typography.titleMedium)
-        Text(host, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        Text(
+          host,
+          style = MaterialTheme.typography.bodySmall,
+          color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
       }
-      Text("Add", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+      Text(
+        "Add",
+        style = MaterialTheme.typography.labelLarge,
+        color = MaterialTheme.colorScheme.primary,
+      )
     }
   }
 }

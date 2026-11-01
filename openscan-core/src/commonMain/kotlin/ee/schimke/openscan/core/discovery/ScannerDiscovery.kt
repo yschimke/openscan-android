@@ -5,11 +5,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 
 /** A scanner found on the local network by mDNS/DNS-SD before the user has registered it. */
-data class DiscoveredScanner(
-  val name: String,
-  val host: String,
-  val port: Int,
-) {
+data class DiscoveredScanner(val name: String, val host: String, val port: Int) {
   val key: String
     get() = "$host:$port"
 }

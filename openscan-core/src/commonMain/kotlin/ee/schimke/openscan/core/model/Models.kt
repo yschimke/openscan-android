@@ -68,10 +68,7 @@ data class CameraInfo(
 
 /** Motor / turntable position (`GET /api/latest/motors/{motor}`). */
 @Serializable
-data class MotorState(
-  val name: String,
-  @SerialName("angle") val angleDegrees: Double = 0.0,
-)
+data class MotorState(val name: String, @SerialName("angle") val angleDegrees: Double = 0.0)
 
 /** A controllable light ring / LED (`GET /api/latest/lights`). */
 @Serializable
@@ -136,7 +133,10 @@ data class ScanStatus(
     get() = if (total <= 0) 0f else (captured.toFloat() / total).coerceIn(0f, 1f)
 
   val isActive: Boolean
-    get() = phase == ScanPhase.INITIALIZING || phase == ScanPhase.CAPTURING || phase == ScanPhase.PROCESSING
+    get() =
+      phase == ScanPhase.INITIALIZING ||
+        phase == ScanPhase.CAPTURING ||
+        phase == ScanPhase.PROCESSING
 }
 
 /** A completed capture set on the device (`GET /api/latest/projects`). */

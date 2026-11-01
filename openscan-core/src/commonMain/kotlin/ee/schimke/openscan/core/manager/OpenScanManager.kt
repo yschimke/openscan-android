@@ -4,10 +4,10 @@ import ee.schimke.openscan.core.api.OpenScanApi
 import ee.schimke.openscan.core.api.OpenScanException
 import ee.schimke.openscan.core.model.CameraInfo
 import ee.schimke.openscan.core.model.DeviceInfo
-import ee.schimke.openscan.core.model.Scanner
-import ee.schimke.openscan.core.model.ScannerReachability
 import ee.schimke.openscan.core.model.ScanSettings
 import ee.schimke.openscan.core.model.ScanStatus
+import ee.schimke.openscan.core.model.Scanner
+import ee.schimke.openscan.core.model.ScannerReachability
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -35,7 +35,9 @@ class OpenScanManager(private val api: OpenScanApi, scanner: Scanner) {
   private val _state = MutableStateFlow(ScannerState(scanner))
   val state: StateFlow<ScannerState> = _state.asStateFlow()
 
-  /** Pull device identity + cameras + scan status in one pass. Never throws — errors land in state. */
+  /**
+   * Pull device identity + cameras + scan status in one pass. Never throws — errors land in state.
+   */
   suspend fun refresh() {
     try {
       val device = api.device()
