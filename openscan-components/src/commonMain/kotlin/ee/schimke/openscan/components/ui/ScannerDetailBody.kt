@@ -51,10 +51,7 @@ fun ScannerDetailBody(
 ) {
   Column(
     modifier =
-      modifier
-        .fillMaxSize()
-        .verticalScroll(rememberScrollState())
-        .padding(Dimens.ScreenPadding),
+      modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(Dimens.ScreenPadding),
     verticalArrangement = Arrangement.spacedBy(Dimens.CardGap),
   ) {
     DeviceHeader(state)
@@ -75,7 +72,10 @@ private fun DeviceHeader(state: ScannerState) {
       style = MaterialTheme.typography.headlineSmall,
       fontWeight = FontWeight.SemiBold,
     )
-    Row(horizontalArrangement = Arrangement.spacedBy(Dimens.M), verticalAlignment = Alignment.CenterVertically) {
+    Row(
+      horizontalArrangement = Arrangement.spacedBy(Dimens.M),
+      verticalAlignment = Alignment.CenterVertically,
+    ) {
       ReachabilityPill(state.reachability)
       val fw = state.device?.firmwareVersion?.takeIf { it.isNotBlank() }
       Text(
@@ -92,7 +92,9 @@ private fun DeviceHeader(state: ScannerState) {
 
 @Composable
 private fun ErrorBanner(message: String) {
-  Card(colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.errorContainer)) {
+  Card(
+    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.errorContainer)
+  ) {
     Text(
       message,
       Modifier.padding(Dimens.L),
@@ -104,7 +106,9 @@ private fun ErrorBanner(message: String) {
 
 @Composable
 private fun PreviewCard(previewSlot: @Composable (Modifier) -> Unit, onRotate: (Double) -> Unit) {
-  Card(colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceContainer)) {
+  Card(
+    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceContainer)
+  ) {
     Column(Modifier.padding(Dimens.L), verticalArrangement = Arrangement.spacedBy(Dimens.M)) {
       SectionHeader("Camera")
       previewSlot(Modifier.fillMaxWidth().aspectRatio(4f / 3f))
@@ -129,7 +133,9 @@ private fun ScanCard(
   onStartScan: () -> Unit,
   onStopScan: () -> Unit,
 ) {
-  Card(colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceContainer)) {
+  Card(
+    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceContainer)
+  ) {
     Column(Modifier.padding(Dimens.L), verticalArrangement = Arrangement.spacedBy(Dimens.M)) {
       SectionHeader("Scan")
       if (state.scan.isActive) {
@@ -144,12 +150,7 @@ private fun ScanCard(
           progress = { state.scan.fraction },
           modifier = Modifier.fillMaxWidth(),
         )
-        Button(
-          onClick = onStopScan,
-          modifier = Modifier.fillMaxWidth(),
-        ) {
-          Text("Stop scan")
-        }
+        Button(onClick = onStopScan, modifier = Modifier.fillMaxWidth()) { Text("Stop scan") }
       } else {
         Stepper(
           label = "Points",
@@ -172,17 +173,30 @@ private fun ScanCard(
 }
 
 @Composable
-private fun Stepper(label: String, value: Int, onChange: (Int) -> Unit, range: IntRange, step: Int) {
+private fun Stepper(
+  label: String,
+  value: Int,
+  onChange: (Int) -> Unit,
+  range: IntRange,
+  step: Int,
+) {
   Row(
     Modifier.fillMaxWidth(),
     horizontalArrangement = Arrangement.SpaceBetween,
     verticalAlignment = Alignment.CenterVertically,
   ) {
     Text(label, style = MaterialTheme.typography.bodyLarge)
-    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(Dimens.S)) {
-      IconButton(onClick = { onChange((value - step).coerceIn(range.first, range.last)) }) { Text("−") }
+    Row(
+      verticalAlignment = Alignment.CenterVertically,
+      horizontalArrangement = Arrangement.spacedBy(Dimens.S),
+    ) {
+      IconButton(onClick = { onChange((value - step).coerceIn(range.first, range.last)) }) {
+        Text("−")
+      }
       Text("$value", style = MaterialTheme.typography.titleMedium)
-      IconButton(onClick = { onChange((value + step).coerceIn(range.first, range.last)) }) { Text("+") }
+      IconButton(onClick = { onChange((value + step).coerceIn(range.first, range.last)) }) {
+        Text("+")
+      }
     }
   }
 }
@@ -191,9 +205,16 @@ private fun Stepper(label: String, value: Int, onChange: (Int) -> Unit, range: I
 @Composable
 fun CameraPreviewPlaceholder(modifier: Modifier = Modifier) {
   Box(
-    modifier.background(MaterialTheme.colorScheme.surfaceContainerHighest, MaterialTheme.shapes.medium),
+    modifier.background(
+      MaterialTheme.colorScheme.surfaceContainerHighest,
+      MaterialTheme.shapes.medium,
+    ),
     contentAlignment = Alignment.Center,
   ) {
-    Text("No preview", color = MaterialTheme.colorScheme.onSurfaceVariant, style = MaterialTheme.typography.bodyMedium)
+    Text(
+      "No preview",
+      color = MaterialTheme.colorScheme.onSurfaceVariant,
+      style = MaterialTheme.typography.bodyMedium,
+    )
   }
 }

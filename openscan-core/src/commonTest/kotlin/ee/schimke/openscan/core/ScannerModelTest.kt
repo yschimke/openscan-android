@@ -11,7 +11,10 @@ class ScannerModelTest {
 
   @Test
   fun baseUrl_omitsDefaultPort() {
-    assertEquals("http://openscan.local", Scanner(Scanner.idFor("openscan.local", 80), "n", "openscan.local").baseUrl)
+    assertEquals(
+      "http://openscan.local",
+      Scanner(Scanner.idFor("openscan.local", 80), "n", "openscan.local").baseUrl,
+    )
     assertEquals(
       "http://192.168.1.5:8000",
       Scanner(Scanner.idFor("192.168.1.5", 8000), "n", "192.168.1.5", 8000).baseUrl,

@@ -14,17 +14,25 @@ class ScannerRepository(private val store: ScannerStore) {
 
   val scanners: Flow<List<Scanner>> = store.scanners
 
-  fun scanner(id: ScannerId): Flow<Scanner?> = store.scanners.map { list -> list.firstOrNull { it.id == id } }
+  fun scanner(id: ScannerId): Flow<Scanner?> =
+    store.scanners.map { list -> list.firstOrNull { it.id == id } }
 
   /**
-   * Register (or update) a scanner from a user-entered host. Marks it a favourite so it survives the
-   * discovery list churn. Returns the resulting [Scanner].
+   * Register (or update) a scanner from a user-entered host. Marks it a favourite so it survives
+   * the discovery list churn. Returns the resulting [Scanner].
    */
   suspend fun register(host: String, port: Int = 80, name: String? = null): Scanner {
-    val cleanHost = host.trim().removePrefix("http://").removePrefix("https://").substringBefore("/")
+    val cleanHost =
+      host.trim().removePrefix("http://").removePrefix("https://").substringBefore("/")
     val id = Scanner.idFor(cleanHost, port)
     val scanner =
-      Scanner(id = id, name = name?.ifBlank { null } ?: cleanHost, host = cleanHost, port = port, favorite = true)
+      Scanner(
+        id = id,
+        name = name?.ifBlank { null } ?: cleanHost,
+        host = cleanHost,
+        port = port,
+        favorite = true,
+      )
     store.upsert(scanner)
     return scanner
   }

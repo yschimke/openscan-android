@@ -10,7 +10,12 @@ import ee.schimke.openscan.components.ui.theme.OpenScanTheme
 // path. Checked against design/ScannerList.{light,dark}.html; the rendered reference | candidate |
 // diff is published to the design-parity/main branch. See docs/design-parity.md.
 
-@Preview(showBackground = true, showSystemUi = true, device = Devices.PIXEL_7, name = "Scanner list")
+@Preview(
+  showBackground = true,
+  showSystemUi = true,
+  device = Devices.PIXEL_7,
+  name = "Scanner list",
+)
 @Composable
 fun ScannerListBodyPreview() {
   OpenScanTheme {

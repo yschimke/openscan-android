@@ -24,8 +24,8 @@ data class SavedScannerRow(val scanner: Scanner, val reachability: ScannerReacha
 
 /**
  * Stateless body of the scanner list / home screen: the user's saved OpenScan devices plus any
- * found on the network by mDNS. Presentational only (no ViewModel, no side effects) so it renders on
- * the CMP desktop path for design-parity; the app wraps it with live data and navigation.
+ * found on the network by mDNS. Presentational only (no ViewModel, no side effects) so it renders
+ * on the CMP desktop path for design-parity; the app wraps it with live data and navigation.
  */
 @Composable
 fun ScannerListBody(
@@ -63,7 +63,10 @@ fun ScannerListBody(
     }
 
     item {
-      OutlinedButton(onClick = onAddManually, modifier = Modifier.fillMaxWidth().padding(top = Dimens.S)) {
+      OutlinedButton(
+        onClick = onAddManually,
+        modifier = Modifier.fillMaxWidth().padding(top = Dimens.S),
+      ) {
         Text("Add a scanner by address")
       }
     }

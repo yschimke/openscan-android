@@ -61,7 +61,9 @@ fun AddScannerBody(
       singleLine = true,
       modifier = Modifier.fillMaxWidth(),
     )
-    error?.let { Text(it, color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.bodySmall) }
+    error?.let {
+      Text(it, color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.bodySmall)
+    }
     Button(onClick = onSubmit, enabled = canSubmit, modifier = Modifier.fillMaxWidth()) {
       Text("Add scanner")
     }

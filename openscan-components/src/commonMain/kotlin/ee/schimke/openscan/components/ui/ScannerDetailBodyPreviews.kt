@@ -11,7 +11,12 @@ import ee.schimke.openscan.core.model.ScanSettings
 // CMP desktop path. Checked against design/ScannerDetail.{light,dark}.html. See
 // docs/design-parity.md.
 
-@Preview(showBackground = true, showSystemUi = true, device = Devices.PIXEL_7, name = "Scanner detail")
+@Preview(
+  showBackground = true,
+  showSystemUi = true,
+  device = Devices.PIXEL_7,
+  name = "Scanner detail",
+)
 @Composable
 fun ScannerDetailBodyPreview() {
   OpenScanTheme {
